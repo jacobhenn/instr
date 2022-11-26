@@ -1,0 +1,10 @@
+test_label:
+    add 5
+    gol
+
+jnz x sponge
+
+test_label:
+    add 8
+    gor
+

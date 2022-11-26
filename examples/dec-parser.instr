@@ -1,0 +1,19 @@
+build_num:
+    inp
+    add -10
+    put x
+    jnz x build_num_continue
+    jmp build_num_end
+build_num_continue:
+    add 10
+    add -48
+    put x
+    gor
+    mul 10
+    add x
+    gol
+    jmp build_num
+build_num_end:
+
+gor
+out
